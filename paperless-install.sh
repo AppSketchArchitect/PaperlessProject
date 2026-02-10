@@ -7,3 +7,9 @@ apt install build-essential python3-setuptools python3-wheel
 apt install redis-server
 
 apt install postgresql
+
+//creation de l4utilisqteur paperless
+
+curl -O -L https://github.com/paperless-ngx/paperless-ngx/releases/download/v1.10.2/paperless-ngx-v1.10.2.tar.xz
+
+tar -xf paperless-ngx-v1.10.2.tar.xz
