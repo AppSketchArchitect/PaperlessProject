@@ -8,7 +8,7 @@ apt install redis-server
 
 apt install postgresql
 
-//creation de l4utilisqteur paperless
+adduser paperless --system --home /opt/paperless --group
 
 apt install curl
 
