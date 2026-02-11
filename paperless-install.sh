@@ -15,3 +15,5 @@ apt install curl
 curl -O -L https://github.com/paperless-ngx/paperless-ngx/releases/download/v1.10.2/paperless-ngx-v1.10.2.tar.xz
 
 tar -xf paperless-ngx-v1.10.2.tar.xz
+
+cp -a ./paperless-ngx/. /opt/paperless
